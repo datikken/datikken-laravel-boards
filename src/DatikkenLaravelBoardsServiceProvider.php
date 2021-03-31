@@ -2,9 +2,9 @@
 
 namespace Datikken\DatikkenLaravelBoards;
 
+use Datikken\DatikkenLaravelBoards\Commands\DatikkenLaravelBoardsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Datikken\DatikkenLaravelBoards\Commands\DatikkenLaravelBoardsCommand;
 
 class DatikkenLaravelBoardsServiceProvider extends PackageServiceProvider
 {

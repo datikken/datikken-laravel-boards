@@ -2,9 +2,9 @@
 
 namespace Datikken\DatikkenLaravelBoards\Tests;
 
+use Datikken\DatikkenLaravelBoards\DatikkenLaravelBoardsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Datikken\DatikkenLaravelBoards\DatikkenLaravelBoardsServiceProvider;
 
 class TestCase extends Orchestra
 {
