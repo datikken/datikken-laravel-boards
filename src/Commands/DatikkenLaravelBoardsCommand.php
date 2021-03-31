@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Datikken\DatikkenLaravelBoards\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DatikkenLaravelBoardsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'datikken_boards';
 
     public $description = 'My command';
 

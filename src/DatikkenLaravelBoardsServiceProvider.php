@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Datikken\DatikkenLaravelBoards;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Datikken\DatikkenLaravelBoards\Commands\DatikkenLaravelBoardsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class DatikkenLaravelBoardsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('datikken_boards')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_datikken_laravel_boards_table')
+            ->hasCommand(DatikkenLaravelBoardsCommand::class);
     }
 }
